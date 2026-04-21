@@ -9,22 +9,35 @@
  *   del lenguaje (cadenas de texto, enteros, booleanos...).
  * - Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
 """
-#URL del sitio web oficial del lenguaje: https://www.python.org/
-#comentario de una linea
+#Comentario en una linea con url de python: https://www.python.org
 """
-comentario de varias lineas
-"""  
-Variable = "Python"
-CONSTANTE = 3.14159 # Pi, por ejemplo
+Comentario de
+varias 
+lineas
+en
+python
+https://www.python.org    
+"""
+#Comentario
+#Varias
+#Lineas
+#Pero poco profesional
 
-#datos primitivos
-cadena_texto = "Hola, Python"
-entero = 42
-booleano = True
-flotante = 3.14
-none_type = None
+# - Crea una variable (y una constante si el lenguaje lo soporta).
+var = "hola python" #Esto es una variable
+NUMERO_PY = 3.14159 #Esto es una constante con un valor inmutable
 
-#Imprimir por terminal
-var_1 = "Python_3.10"
-print (f"Hola, {var_1}!")
-print(f"¡Hola, {var_1}!")
+# - Crea variables representando todos los tipos de datos primitivos
+var_1 = int(23)#Esto es un dato de tipo entero
+print(f"Hola!! soy un dato de tipo entero:{var_1}")
+var_2 = str("Hola string")#Esto es un dato de tipo string o cadena de caracteres
+print(f"Hola!! soy un dato de tipo str o string o cadena de texto:{var_2}")
+var_3 = float(2.24)#Esto es un dato de tipo float y representa numeros decimales
+print(f"Hola!! soy un dato de tipo decimal o numero flotante:{var_3}")
+var_3 = bool(True)#Esto es un tipo de dato bool
+var_4 = bool(False)#Esto tambien es un tipo de dato bool
+print(f"Hola!! soy un dato de tipo booleano solamente tengo dos resultados o:{var_3} o {var_4}")
+
+#- Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
+VAR_5 = "python"
+print(f"Hola!!{VAR_5}")
